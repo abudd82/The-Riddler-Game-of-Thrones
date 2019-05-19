@@ -2,9 +2,7 @@
 title: "How Many Soldiers Do You Need To Beat The Night King?"
 author: "Alan Budd"
 date: "5/17/2019"
-output: 
-  html_document:
-    toc: true
+output: rmarkdown::github_document
 ---
 
 ```{r setup, include=FALSE}
