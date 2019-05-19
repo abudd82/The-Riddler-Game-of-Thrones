@@ -115,7 +115,7 @@ war <- function(living_size, dead_size){
 }
 ```
 
-Let’s test go to war\!
+Let’s go to war\!
 
 ``` r
 war_outcome <- war(100, 100)
@@ -180,13 +180,13 @@ example2 <- simulate_wars(living_size = 1000, dead_size = 100, num_simulations =
 paste("The Army of the Living won", scales::percent(example2$living_wins/example2$total_wars), "of the simulated wars.")
 ```
 
-    ## [1] "The Army of the Living won 3.00% of the simulated wars."
+    ## [1] "The Army of the Living won 2.70% of the simulated wars."
 
 ``` r
 paste("The Army of the Dead won", scales::percent(example2$dead_wins/example2$total_wars), "of the simulated wars.")
 ```
 
-    ## [1] "The Army of the Dead won 97.0% of the simulated wars."
+    ## [1] "The Army of the Dead won 97.3% of the simulated wars."
 
 Still not looking good, but better than 0%\!
 

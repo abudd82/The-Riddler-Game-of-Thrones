@@ -86,7 +86,7 @@ war <- function(living_size, dead_size){
 }
 ```
 
-Let's test go to war!
+Let's go to war!
 
 ```{r, echo=TRUE}
 war_outcome <- war(100, 100)
